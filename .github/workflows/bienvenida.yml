@@ -12,3 +12,6 @@ jobs:
       - name: Saludar
         run: |
           echo "Hola Github Actions!!!"
+      - name: listar
+        run: |
+          ls -l    
