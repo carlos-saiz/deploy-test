@@ -12,3 +12,8 @@ jobs:
       - name: date
         run: |
         date
+
+      - name: listar
+        run: |
+        ls -l
+        
