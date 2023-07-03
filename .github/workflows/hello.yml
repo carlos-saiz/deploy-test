@@ -1,0 +1,14 @@
+name: Bienvenida!
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  saludo_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: date
+        run: |
+        date
